@@ -1,0 +1,35 @@
+# Environment Variables & Secrets (NEVER COMMIT)
+.env
+.env.local
+.env.*.local
+
+# Dependency Directories
+node_modules/
+/.pnp
+.pnp.js
+
+# Production / Build Out
+dist/
+build/
+.next/
+out/
+
+# Database / Storage (If running local volumes or SQLite)
+*.sqlite
+*.log
+pgdata/
+
+# Debug Logs & Temp Files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
+
+# IDE & OS System Files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Testing & Coverage reports
+coverage/
