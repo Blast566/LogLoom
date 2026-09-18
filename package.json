@@ -29,8 +29,8 @@
     "@types/node": "^26.6.0",
     "@types/pg": "^8.23.1",
     "@types/pg-format": "^1.0.5",
+    "dotenv": "^17.4.2",
     "tsx": "^4.23.13",
-    "typescript": "^7.0.2",
-    "dotenv": "^17.4.2"
+    "typescript": "^7.0.2"
   }
 }
